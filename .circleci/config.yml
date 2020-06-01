@@ -10,4 +10,8 @@ workflows:
   welcome:
     # Run the welcome/run job in its own container
     jobs:
-      - echo "hello world"
+      - eone
+      
+ jobs:
+    eone:
+        - run : echo "hello world"
